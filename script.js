@@ -55,7 +55,7 @@ function setel(){audio.play();} function setel2(){bgm.play();} function sjawab()
 var aa=0,katangetik;
 function ngetik() {
   new TypeIt("#kalimat", {
-    strings: ["" + katangetik], startDelay: 50, speed: 42, cursor: true,
+    strings: ["" + katangetik], startDelay: 50, speed: 28, cursor: true,
     afterComplete: function(){
         kalimat.innerHTML = katangetik;
         kalimatc.style="margin-top:20px;margin-bottom:10px";
