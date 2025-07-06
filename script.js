@@ -55,7 +55,7 @@ function setel(){audio.play();} function setel2(){bgm.play();} function sjawab()
 var aa=0,katangetik;
 function ngetik() {
   new TypeIt("#kalimat", {
-    strings: ["" + katangetik], startDelay: 50, speed: 28, cursor: true,
+    strings: ["" + katangetik], startDelay: 50, speed: 8, cursor: true,
     afterComplete: function(){
         kalimat.innerHTML = katangetik;
         kalimatc.style="margin-top:20px;margin-bottom:10px";
@@ -65,7 +65,7 @@ function ngetik() {
 var ai=0,katangetik2;
 function ngetik2() {
   new TypeIt("#kalimatc", {
-    strings: ["" + katangetik2], startDelay: 50, speed: 25, cursor: true,
+    strings: ["" + katangetik2], startDelay: 50, speed: 8, cursor: true,
     afterComplete: function(){
         kalimatc.innerHTML = katangetik2;
         fotoakhir.style.transform="scale(0)";
